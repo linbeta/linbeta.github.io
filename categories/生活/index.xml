@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on 林杯塔部落格</title>
+    <link>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on 林杯塔部落格</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 27 Feb 2021 18:12:50 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://linbeta.github.io/blog/hello_world/</link>
+      <pubDate>Sat, 27 Feb 2021 18:12:50 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/hello_world/</guid>
+      <description>Hello World 今年2021，我將要滿35歲了，去年2020年是個多事的一年，失戀、covid-19全球疫情、工作上轉換跑道，到今年初發現將要失業了，於是我終於有機會停下腳步開始思考：我是誰？我要做什麼？我要往哪裡去。</description>
+    </item>
+    
+  </channel>
+</rss>

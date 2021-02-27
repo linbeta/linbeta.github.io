@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 林杯塔部落格</title>
+    <link>https://linbeta.github.io/tags/</link>
+    <description>Recent content in Tags on 林杯塔部落格</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 27 Feb 2021 18:12:50 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://linbeta.github.io/tags/blog/</link>
+      <pubDate>Sat, 27 Feb 2021 18:12:50 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story</title>
+      <link>https://linbeta.github.io/tags/story/</link>
+      <pubDate>Sat, 27 Feb 2021 18:12:50 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/story/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
