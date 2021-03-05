@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://linbeta.github.io/blog/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/categories/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/html/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/learning/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/lifestyle/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/online_course/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/python/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/blog/about_learning/</loc>
+    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
+  </url><url>
     <loc>https://linbeta.github.io/tags/blog/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/blog/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/categories/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/photos/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/taiwan/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/blog/2021feb28/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/%E6%AD%B7%E5%8F%B2/</loc>
