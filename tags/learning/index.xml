@@ -6,7 +6,16 @@
     <description>Recent content in learning on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 03 May 2021 00:14:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 May 2021 02:38:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技術文件的重要性</title>
+      <link>https://linbeta.github.io/blog/tkinter_2021may14/</link>
+      <pubDate>Wed, 19 May 2021 02:38:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/tkinter_2021may14/</guid>
+      <description>這一個多禮拜都在學習和研究使用Python內建的tkinter套件/模組，剛開始學的幾堂課對於tkinter的文件的難讀性感到非常的挫折，為什麼看起來這麼龐大、這麼複雜、這麼難看懂？！？！老實說學這部分的前兩天我被嚇壞了XD，可以點一下下面的連結感受一下這種恐懼：</description>
+    </item>
+    
     <item>
       <title>學寫程式2個月的小小成就感</title>
       <link>https://linbeta.github.io/blog/milestone_1_2021may03/</link>
