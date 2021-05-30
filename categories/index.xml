@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 19 May 2021 02:38:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 14:08:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活</title>
+      <link>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sun, 30 May 2021 14:08:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Python</title>
       <link>https://linbeta.github.io/categories/python/</link>
@@ -31,15 +40,6 @@
       <pubDate>Fri, 05 Mar 2021 17:24:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/categories/%E5%AD%B8%E7%BF%92/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生活</title>
-      <link>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Sun, 28 Feb 2021 23:10:47 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     

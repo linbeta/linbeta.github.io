@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://linbeta.github.io/tags/app/</loc>
-    <lastmod>2021-05-19T02:38:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/blog/</loc>
-    <lastmod>2021-05-19T02:38:00+08:00</lastmod>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/categories/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/excercise/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/game/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/github/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/html/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/life/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/opensourceproject/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/blog/de-stress_activity_2021may30/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-05-30T14:08:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/app/</loc>
     <lastmod>2021-05-19T02:38:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/develop/</loc>
@@ -26,17 +56,8 @@
     <loc>https://linbeta.github.io/categories/python/</loc>
     <lastmod>2021-05-19T02:38:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/</loc>
-    <lastmod>2021-05-19T02:38:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/blog/tkinter_2021may14/</loc>
     <lastmod>2021-05-19T02:38:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/</loc>
-    <lastmod>2021-05-19T02:38:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/game/</loc>
-    <lastmod>2021-05-03T00:14:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/blog/milestone_1_2021may03/</loc>
     <lastmod>2021-05-03T00:14:00+08:00</lastmod>
@@ -61,9 +82,6 @@
   </url><url>
     <loc>https://linbeta.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-04-05T22:12:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/html/</loc>
-    <lastmod>2021-03-05T17:24:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/lifestyle/</loc>
     <lastmod>2021-03-05T17:24:00+08:00</lastmod>
@@ -90,9 +108,6 @@
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/%E6%AD%B7%E5%8F%B2/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/contact/</loc>
