@@ -25,5 +25,14 @@
       <description>不要忘記歷史 前幾天在路上看到順手拍了這張照片，今天是二二八七十四週年。</description>
     </item>
     
+    <item>
+      <title>Hello World</title>
+      <link>https://linbeta.github.io/blog/hello_world/</link>
+      <pubDate>Sat, 27 Feb 2021 18:12:50 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/hello_world/</guid>
+      <description>Hello World 今年2021，我將要滿35歲了，去年2020年是個多事的一年，失戀、covid-19全球疫情、工作上轉換跑道，到今年初發現將要失業了，於是我終於有機會停下腳步開始思考：我是誰？我要做什麼？我要往哪裡去。</description>
+    </item>
+    
   </channel>
 </rss>
