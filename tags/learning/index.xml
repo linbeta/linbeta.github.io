@@ -6,7 +6,16 @@
     <description>Recent content in learning on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 19 May 2021 02:38:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 02:18:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify for Developers好玩！(但是也好難XD)</title>
+      <link>https://linbeta.github.io/blog/spotify_playground_2021jun16/</link>
+      <pubDate>Mon, 21 Jun 2021 02:18:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/spotify_playground_2021jun16/</guid>
+      <description>上一周的pyton課程project的實作比較多、上課內容較少，我看各種文件看到瘋掉，很多內容看一次不懂，看第二次還是不懂，看到第三四次勉強跟著動手寫看看，經過無數次的猜和try and error才開始慢慢有點模糊的概念，老實說到現在我也還是很模糊，所以希望動手把這樣的經驗寫出來可以讓我再反芻一次、哪天再遇到瘋狂挫敗的時候可以記得保持冷靜和勇敢。🤣</description>
+    </item>
+    
     <item>
       <title>Python tkinter圖形介面使用筆記</title>
       <link>https://linbeta.github.io/blog/tkinter_2021may14/</link>
