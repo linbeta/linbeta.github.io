@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://linbeta.github.io/tags/blog/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
     <loc>https://linbeta.github.io/blog/</loc>
-    <lastmod>2021-06-21T02:18:00+08:00</lastmod>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/categories/</loc>
-    <lastmod>2021-06-21T02:18:00+08:00</lastmod>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/learning/</loc>
-    <lastmod>2021-06-21T02:18:00+08:00</lastmod>
+    <loc>https://linbeta.github.io/tags/life/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/milestone/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/self/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/status/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/%E6%AF%9B%E7%90%83/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/categories/%E6%AF%9B%E7%90%83/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/blog/seize_right_now_2021sep22/</loc>
+    <lastmod>2021-09-22T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/learning/</loc>
     <lastmod>2021-06-21T02:18:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/music/</loc>
@@ -23,34 +50,16 @@
     <loc>https://linbeta.github.io/blog/spotify_playground_2021jun16/</loc>
     <lastmod>2021-06-21T02:18:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/</loc>
-    <lastmod>2021-06-21T02:18:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/</loc>
     <lastmod>2021-06-21T02:18:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
     <lastmod>2021-06-21T02:18:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/</loc>
-    <lastmod>2021-06-21T02:18:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/life/</loc>
-    <lastmod>2021-06-07T16:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/procrastination/</loc>
     <lastmod>2021-06-07T16:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/self/</loc>
-    <lastmod>2021-06-07T16:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/status/</loc>
-    <lastmod>2021-06-07T16:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/wtf/</loc>
-    <lastmod>2021-06-07T16:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/categories/%E6%AF%9B%E7%90%83/</loc>
     <lastmod>2021-06-07T16:00:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/blog/procrastination_2021jun07/</loc>
@@ -98,9 +107,6 @@
     <loc>https://linbeta.github.io/tags/%E4%BC%91%E6%81%AF/</loc>
     <lastmod>2021-04-05T22:12:00+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/%E6%AF%9B%E7%90%83/</loc>
-    <lastmod>2021-04-05T22:12:00+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/%E6%B2%92%E9%97%9C%E4%BF%82%E7%9A%84/</loc>
     <lastmod>2021-04-05T22:12:00+08:00</lastmod>
   </url><url>
@@ -118,9 +124,6 @@
   </url><url>
     <loc>https://linbeta.github.io/blog/about_learning/</loc>
     <lastmod>2021-03-05T17:24:00+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/blog/</loc>
-    <lastmod>2021-02-28T23:10:47+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/photos/</loc>
     <lastmod>2021-02-28T23:10:47+08:00</lastmod>
