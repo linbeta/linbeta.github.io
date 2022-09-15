@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="東西好多根本學不完，學過一次的東西不會馬上記得，會讀技術文件、Google對的問題找到答案好像是更重要的技能？">
   <meta name="author" content="Beta Lin">
-  <meta name="generator" content="Hugo 0.84.1" />
+  <meta name="generator" content="Hugo 0.102.3" />
 
   <!-- plugins -->
   
@@ -76,6 +76,10 @@
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/linbeta"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/beta-lin-b14020139/"><i class="ti-linkedin"></i></a>
             </li>
             
           </ul>
@@ -149,14 +153,13 @@
 <h3 id="tkinter-是什麼">tkinter 是什麼？</h3>
 <p>它是一個Python內建的GUI module(圖形使用者介面模組)，可以在不用額外安裝套件的情況下，用Python來寫圖像化的使用介面，幾個入門的基本功能如下列：</p>
 <h4 id="建立一個圖形介面視窗">建立一個圖形介面視窗</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> tkinter <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
-
-window <span style="color:#f92672">=</span> Tk()
-window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Pomodoro&#34;</span>)
-
-window<span style="color:#f92672">.</span>mainloop()
-
-</code></pre></div><p>程式中的最後一行需要加.mainloop()，讓圖形視窗可以一直開啟。以上幾行會產生一個小視窗：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> tkinter <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>window <span style="color:#f92672">=</span> Tk()
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Pomodoro&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>mainloop()
+</span></span></code></pre></div><p>程式中的最後一行需要加.mainloop()，讓圖形視窗可以一直開啟。以上幾行會產生一個小視窗：
 <img src="../../images/post/tkinter/window_min.png" alt="image"></p>
 <h4 id="常用的幾種widgets">常用的幾種widgets</h4>
 <table>
@@ -234,29 +237,29 @@ window<span style="color:#f92672">.</span>mainloop()
 <p>關於以上三種布局的差別<a href="https://www.delftstack.com/zh-tw/tutorial/tkinter-tutorial/tkinter-geometry-managers/">這邊有篇文章</a>寫得蠻清楚的，忘記可以看一下XD</p>
 <h3 id="實作範例">實作範例</h3>
 <p>用本篇主圖Gif檔案中的UI設定做為範例，程式碼如下：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> tkinter <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
-
-window <span style="color:#f92672">=</span> Tk()
-window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Pomodoro&#34;</span>)
-window<span style="color:#f92672">.</span>config(padx<span style="color:#f92672">=</span><span style="color:#ae81ff">40</span>, pady<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, bg<span style="color:#f92672">=</span>BG_COLOR)
-
-<span style="color:#75715e"># --- Theme color and set Time text at the center ---</span>
-canvas <span style="color:#f92672">=</span> Canvas(width<span style="color:#f92672">=</span><span style="color:#ae81ff">260</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">200</span>, bg<span style="color:#f92672">=</span>BG_COLOR, highlightthickness<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
-timer_text <span style="color:#f92672">=</span> canvas<span style="color:#f92672">.</span>create_text(<span style="color:#ae81ff">130</span>, <span style="color:#ae81ff">120</span>, text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;00:00&#34;</span>, fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">80</span>, <span style="color:#e6db74">&#34;normal&#34;</span>))
-canvas<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, columnspan<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
-
-<span style="color:#75715e"># Other widgets</span>
-timer_label <span style="color:#f92672">=</span> canvas<span style="color:#f92672">.</span>create_text(<span style="color:#ae81ff">130</span>, <span style="color:#ae81ff">30</span>, text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Timer&#34;</span>, fill<span style="color:#f92672">=</span>YELLOW, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">32</span>))
-
-start_btn <span style="color:#f92672">=</span> Button(text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GO&#34;</span>, fg<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">16</span>), command<span style="color:#f92672">=</span>start_count_down)
-start_btn<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>)
-
-reset_btn <span style="color:#f92672">=</span> Button(text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;RESET&#34;</span>, fg<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">12</span>), pady<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>, command<span style="color:#f92672">=</span>reset_timer)
-reset_btn<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>)
-
-checked_mark <span style="color:#f92672">=</span> Label(fg<span style="color:#f92672">=</span>YELLOW, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">10</span>), height<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>)
-checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, columnspan<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
-</code></pre></div><p>會使用以上幾種基礎的widgets就夠用來製作各種小工具了！以下列出幾個課程練習的projects：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> tkinter <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>window <span style="color:#f92672">=</span> Tk()
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Pomodoro&#34;</span>)
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>config(padx<span style="color:#f92672">=</span><span style="color:#ae81ff">40</span>, pady<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, bg<span style="color:#f92672">=</span>BG_COLOR)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># --- Theme color and set Time text at the center ---</span>
+</span></span><span style="display:flex;"><span>canvas <span style="color:#f92672">=</span> Canvas(width<span style="color:#f92672">=</span><span style="color:#ae81ff">260</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">200</span>, bg<span style="color:#f92672">=</span>BG_COLOR, highlightthickness<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>timer_text <span style="color:#f92672">=</span> canvas<span style="color:#f92672">.</span>create_text(<span style="color:#ae81ff">130</span>, <span style="color:#ae81ff">120</span>, text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;00:00&#34;</span>, fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">80</span>, <span style="color:#e6db74">&#34;normal&#34;</span>))
+</span></span><span style="display:flex;"><span>canvas<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, columnspan<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Other widgets</span>
+</span></span><span style="display:flex;"><span>timer_label <span style="color:#f92672">=</span> canvas<span style="color:#f92672">.</span>create_text(<span style="color:#ae81ff">130</span>, <span style="color:#ae81ff">30</span>, text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Timer&#34;</span>, fill<span style="color:#f92672">=</span>YELLOW, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">32</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>start_btn <span style="color:#f92672">=</span> Button(text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GO&#34;</span>, fg<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">16</span>), command<span style="color:#f92672">=</span>start_count_down)
+</span></span><span style="display:flex;"><span>start_btn<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>reset_btn <span style="color:#f92672">=</span> Button(text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;RESET&#34;</span>, fg<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">12</span>), pady<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>, command<span style="color:#f92672">=</span>reset_timer)
+</span></span><span style="display:flex;"><span>reset_btn<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>checked_mark <span style="color:#f92672">=</span> Label(fg<span style="color:#f92672">=</span>YELLOW, bg<span style="color:#f92672">=</span>BG_COLOR, font<span style="color:#f92672">=</span>(FONT_NAME, <span style="color:#ae81ff">10</span>), height<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, row<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, columnspan<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
+</span></span></code></pre></div><p>會使用以上幾種基礎的widgets就夠用來製作各種小工具了！以下列出幾個課程練習的projects：</p>
 <h4 id="pomodoro-apphttpsgithubcomlinbetaday-28_pomodoro_projecttreeminimalism"><a href="https://github.com/linbeta/Day-28_pomodoro_project/tree/minimalism">Pomodoro App</a></h4>
 <p>這個小App算是目前為止做的最實用的，最近幾天在家的時間幾乎都打開它用番茄鐘工作法來學習，左圖是課程中的教材實作，右邊的極簡版是我花了一個下午自己設計的XD
 <img src="../../images/post/tkinter/pomodoros.PNG" alt="img"></p>
@@ -281,7 +284,7 @@ checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f
         
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -317,9 +320,6 @@ checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
-          <li class="mb-3"><a class="text-dark" href="tel:0972-357-072"><i
-                class="ti-mobile mr-3 text-primary"></i>0972-357-072</a></li>
-          
                      
           <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taipei, Taiwan</li>
           
@@ -341,11 +341,16 @@ checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f
           
           <li class="mb-3"><a class="text-dark" href="https://github.com/linbeta">github</a></li>
           
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/beta-lin-b14020139/">linkedin</a></li>
+          
         </ul>
       </div>
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Categories</h6>
         <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/2022_ithome%e9%90%b5%e4%ba%ba%e8%b3%bd">2022 ithome鐵人賽</a>
+          </li>
           <li class="mb-3"><a class="text-dark"
               href="/categories/python">Python</a>
           </li>
@@ -373,7 +378,7 @@ checked_mark<span style="color:#f92672">.</span>grid(column<span style="color:#f
         </ul>
       </div>
       <div class="col-12 border-top py-4 text-center">
-        | copyright © 2021 <a href="https://linbeta.github.io">Beta Lin</a> All Rights Reserved |
+        | copyright © 2022 <a href="https://linbeta.github.io">Beta Lin</a> All Rights Reserved |
       </div>
     </div>
   </div>

@@ -6,7 +6,25 @@
     <description>Recent content in Blogs on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 22 Sep 2021 14:30:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 02:26:57 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day-1_誤闖叢林的AI工程師轉職之路</title>
+      <link>https://linbeta.github.io/blog/20220916_day_1/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/20220916_day_1/</guid>
+      <description>誤闖叢林的AI工程師轉職之路系列 第 1 篇</description>
+    </item>
+    
+    <item>
+      <title>帶著探險的心情邊玩邊學</title>
+      <link>https://linbeta.github.io/blog/20210929_new_adventure/</link>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/20210929_new_adventure/</guid>
+      <description>最近和Gather.town相見恨晚，之前就知道這個網站但一直沒有自己體驗玩玩看，剛好上周末參加了PyCon的sprints才第一次用Gather參加線上活動，一玩就愛上，活動結束後還花了點時間研究、亂入其他開放空間和試著自己編輯調整擺設和設定物件等等。(也意外挖寶到以前玩過的桌遊現在居然有線上版了！)</description>
+    </item>
+    
     <item>
       <title>隨時都可以開始，不如就現在</title>
       <link>https://linbeta.github.io/blog/seize_right_now_2021sep22/</link>

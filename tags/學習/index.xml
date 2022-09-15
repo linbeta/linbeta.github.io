@@ -6,7 +6,16 @@
     <description>Recent content in 學習 on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 21 Jun 2021 02:18:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 16:30:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>帶著探險的心情邊玩邊學</title>
+      <link>https://linbeta.github.io/blog/20210929_new_adventure/</link>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/blog/20210929_new_adventure/</guid>
+      <description>最近和Gather.town相見恨晚，之前就知道這個網站但一直沒有自己體驗玩玩看，剛好上周末參加了PyCon的sprints才第一次用Gather參加線上活動，一玩就愛上，活動結束後還花了點時間研究、亂入其他開放空間和試著自己編輯調整擺設和設定物件等等。(也意外挖寶到以前玩過的桌遊現在居然有線上版了！)</description>
+    </item>
+    
     <item>
       <title>Spotify for Developers好玩！(但是也好難XD)</title>
       <link>https://linbeta.github.io/blog/spotify_playground_2021jun16/</link>

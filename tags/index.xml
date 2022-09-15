@@ -6,20 +6,56 @@
     <description>Recent content in Tags on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 22 Sep 2021 14:30:00 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 02:26:57 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://linbeta.github.io/tags/blog/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <title>Artificial Intelligence</title>
+      <link>https://linbeta.github.io/tags/artificial-intelligence/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
       
-      <guid>https://linbeta.github.io/tags/blog/</guid>
+      <guid>https://linbeta.github.io/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Life</title>
+      <title>challenge</title>
+      <link>https://linbeta.github.io/tags/challenge/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/challenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://linbeta.github.io/tags/data/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journey</title>
+      <link>https://linbeta.github.io/tags/journey/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/journey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://linbeta.github.io/tags/work/</link>
+      <pubDate>Fri, 16 Sep 2022 02:26:57 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
       <link>https://linbeta.github.io/tags/life/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/life/</guid>
       <description></description>
@@ -28,36 +64,54 @@
     <item>
       <title>Milestone</title>
       <link>https://linbeta.github.io/tags/milestone/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/milestone/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>self</title>
+      <title>Self</title>
       <link>https://linbeta.github.io/tags/self/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/self/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>status</title>
+      <title>Status</title>
       <link>https://linbeta.github.io/tags/status/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/status/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>學習</title>
+      <link>https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/</link>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>毛球</title>
       <link>https://linbeta.github.io/tags/%E6%AF%9B%E7%90%83/</link>
-      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Sep 2021 16:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/%E6%AF%9B%E7%90%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://linbeta.github.io/tags/blog/</link>
+      <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -85,15 +139,6 @@
       <pubDate>Mon, 21 Jun 2021 02:18:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>學習</title>
-      <link>https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/</link>
-      <pubDate>Mon, 21 Jun 2021 02:18:00 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/%E5%AD%B8%E7%BF%92/</guid>
       <description></description>
     </item>
     
