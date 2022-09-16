@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>林杯塔部落格</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="誤闖叢林的AI工程師轉職之路系列第2篇">
+  <meta name="author" content="Beta Lin">
+  <meta name="generator" content="Hugo 0.102.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://linbeta.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://linbeta.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-190830133-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://linbeta.github.io"><img class="img-fluid"
+          src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/profile.php?id=1142237206"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/sb2828sb/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/linbeta"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/beta-lin-b14020139/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://linbeta.github.io"><img class="img-fluid"
+            src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://linbeta.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://linbeta.github.io/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://linbeta.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/2022_ithome%e9%90%b5%e4%ba%ba%e8%b3%bd" class="text-primary">2022 i thome鐵人賽</a>
+        
+        <h2>Day-2_每天要盯著看的畫面當然要賞心悅目！- Work with terminal</h2>
+        <div class="mb-3 post-meta">
+          <span>By Beta Lin</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>Saturday, September 17, 2022</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p><a href="https://ithelp.ithome.com.tw/articles/10291244">誤闖叢林的AI工程師轉職之路系列 第 2 篇</a></p>
+<p>在成為工程師的路上，從一開始搞懂純文字的CLI指令，到後來慢慢熟悉不同的Linux作業系統以外，印象最深刻的就是一般內建的終端機畫面都醜爆了，尤其是Windows10的原生cmd視窗&hellip;，還有在GCP上跑GCE的VM時，瀏覽器的彈出式Terminal真的不太好用&hellip;😅
+不過長期使用Windows的我，在去年升級到Windows 11以後，對他改版後的PowerShell/CMD/WSL Terminal滿意度大大加分，視覺上的設定、字體、顏色和透明度都可以調整，其實已經好用很多了。</p>
+<p>之前曾經在公司看過同事可以毫無障礙的使用最傳統的黑白終端機，幾乎是預設值，字有夠小，字體也醜醜的，居然可以長期使用，真心覺得佩服！🤣</p>
+<p>總之我還是會被美美的、有設計過的東西吸引目光，所以有一陣子我的休閒就是在調各種Terminal的設定、下載各種連線工具試用，到後來小研究後才找到我喜歡順手的工具。後來才發現，很多工程師也喜歡調這些設定，畢竟每天要盯著看好久，把這些東西設定到賞心悅目，就是爽啊！</p>
+<p>今天我想來就先來分享一些我自己喜歡的連線工具和終端機設定吧！如果你也有些好東西也歡迎留言跟我分享～</p>
+<h2 id="win11終端機自訂色彩">Win11終端機自訂色彩</h2>
+<p>升級以後的終端機使用者體驗比起win10，我個人覺得Win11實在好太多了！</p>
+<h5 id="簡單設定後長這樣子">簡單設定後長這樣子</h5>
+<p>當然可以用單色背景，不過我愛微透明背景，騷包就是讚～
+<img src="../../images/post/20220917_day-2/win11_terminal.png" alt="Win11 Terminal"></p>
+<h5 id="找到設定的選項">找到設定的選項</h5>
+<p><img src="../../images/post/20220917_day-2/win11_setting.png" alt="Win11 setting"></p>
+<h5 id="選擇色彩配置">選擇色彩配置</h5>
+<p>設定好系統色彩後記得儲存
+<img src="../../images/post/20220917_day-2/setting_colors.png" alt="Setting_colors"></p>
+<h5 id="選擇設定項目後往下捲到底選外觀">選擇設定項目後往下捲到底選外觀</h5>
+<p>這邊就選<strong>命令提示字元</strong>
+<img src="../../images/post/20220917_day-2/setting_pref.png" alt="Win11 preference"></p>
+<h5 id="外觀細節設定">外觀細節設定</h5>
+<p>進入外觀設定後有一堆可以調的，上方貼心顯示預覽畫面，色彩配置可以選你剛剛挑好的顏色組合。確認好你喜歡的字型和字體大小後，就差不多了。
+<img src="../../images/post/20220917_day-2/setting_overview.png" alt="Setting_Overview">
+想要騷包的透明背景可以調整背景不透明度玩玩看，好了按儲存。
+<img src="../../images/post/20220917_day-2/setting_trans.png" alt="Setting_Opacity">
+新開一個你設定的項目分頁就已經生效囉！是不是蠻簡單的？</p>
+<h2 id="tabby-terminal">Tabby Terminal</h2>
+<p><a href="https://tabby.sh/">Tabby (https://tabby.sh)</a>是我用Windows時期最喜歡的Terminal連線工具，大推！他除了有超多內建的配色主題以外，也可以存你常連線的機器資訊，而且不止SSH過去的IP位址，登入帳號/密碼或private key都可以直接設定儲存，用這個以後要SSH連線超省事的，跟平常用瀏覽器很像，開一個新分頁就連好了，效率好很多！</p>
+<h5 id="設定總覽">設定總覽</h5>
+<p>安裝完成後打開，點右上角的齒輪進入設定
+<img src="../../images/post/20220917_day-2/tabby_setting.png" alt="Tabby_setting"></p>
+<h5 id="外觀與字體設定">外觀與字體設定</h5>
+<p>我自己蠻喜歡Cascadia Code系列的字體，容易閱讀，這點微軟Good Job!
+<img src="../../images/post/20220917_day-2/tabby_appearance.png" alt="Tabby_setting_Appearance"></p>
+<h5 id="超多內建配色可以慢慢挑">超多內建配色可以慢慢挑</h5>
+<p>這邊有個小撇步，挑到喜歡的配色可以編輯黨名，我是在名字前面加數字，這樣常用的幾款可以存到最上面，之後就不用再找很久了。
+<img src="../../images/post/20220917_day-2/tabby_color_scheme.png" alt="Tabby_setting_Color_scheme"></p>
+<h5 id="重點來了ssh連線設定">重點來了：SSH連線設定</h5>
+<p>點<strong>New Profile</strong>設定新的連線
+<img src="../../images/post/20220917_day-2/tabby_connection.png" alt="Tabby_setting_Connection"></p>
+<h5 id="可以存密碼或私鑰">可以存密碼或私鑰</h5>
+<p>如果你有很多遠端server需要連線管理，或是開了很多不同的VM跑服務，這個功能超棒的，還可以把不同機器分組放。
+<img src="../../images/post/20220917_day-2/tabby_login.png" alt="Tabby_Login"></p>
+<h5 id="連線">連線！</h5>
+<p>設定完成後，之後只要點標籤頁加號右邊的這個按鈕就可以選擇連線了
+<img src="../../images/post/20220917_day-2/tabby_go.png" alt="Tabby_GO">
+<img src="../../images/post/20220917_day-2/tabby_select.png" alt="Tabby_Select"></p>
+<h5 id="自動跑ssh真的是很省事呀">自動跑SSH真的是很省事呀！</h5>
+<p><img src="../../images/post/20220917_day-2/tabby_done.png" alt="Tabby_Done"></p>
+<h2 id="題外話">題外話</h2>
+<p>BTW後來工作中用了Macbook以後，整個被MacOS各種視覺上和設計上的細節燒到，最後自己也入坑加入Mac的行列了，如果有人還在猶豫要不要換Mac，我現在都直接無情推坑了XDD</p>
+<p><img src="../../images/post/20220917_day-2/macbook_terminal.png" alt="我現在常用的mac terminal長這樣"></p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "betalin" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://linbeta.github.io"><img src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taipei, Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:beta610@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>beta610@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/profile.php?id=1142237206">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/sb2828sb/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/linbeta">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/beta-lin-b14020139/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/2022_ithome%e9%90%b5%e4%ba%ba%e8%b3%bd">2022 ithome鐵人賽</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e5%ad%b8%e7%bf%92">學習</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e6%af%9b%e7%90%83">毛球</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e7%94%9f%e6%b4%bb">生活</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2022 <a href="https://linbeta.github.io">Beta Lin</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://linbeta.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://linbeta.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/mark.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://linbeta.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
