@@ -6,11 +6,11 @@
     <description>Recent content in Tags on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 17 Sep 2022 03:28:17 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Sep 2022 23:57:14 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>challenge</title>
       <link>https://linbeta.github.io/tags/challenge/</link>
-      <pubDate>Sat, 17 Sep 2022 03:28:17 +0800</pubDate>
+      <pubDate>Sun, 18 Sep 2022 23:57:14 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/challenge/</guid>
       <description></description>
@@ -19,9 +19,36 @@
     <item>
       <title>journey</title>
       <link>https://linbeta.github.io/tags/journey/</link>
-      <pubDate>Sat, 17 Sep 2022 03:28:17 +0800</pubDate>
+      <pubDate>Sun, 18 Sep 2022 23:57:14 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/journey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://linbeta.github.io/tags/learning/</link>
+      <pubDate>Sun, 18 Sep 2022 23:57:14 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://linbeta.github.io/tags/linux/</link>
+      <pubDate>Sun, 18 Sep 2022 23:57:14 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://linbeta.github.io/tags/tools/</link>
+      <pubDate>Sun, 18 Sep 2022 23:57:14 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/tools/</guid>
       <description></description>
     </item>
     
@@ -31,15 +58,6 @@
       <pubDate>Sat, 17 Sep 2022 03:28:17 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tools</title>
-      <link>https://linbeta.github.io/tags/tools/</link>
-      <pubDate>Sat, 17 Sep 2022 03:28:17 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/tools/</guid>
       <description></description>
     </item>
     
@@ -130,15 +148,6 @@
       <pubDate>Wed, 22 Sep 2021 14:30:00 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://linbeta.github.io/tags/learning/</link>
-      <pubDate>Mon, 21 Jun 2021 02:18:00 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/learning/</guid>
       <description></description>
     </item>
     
