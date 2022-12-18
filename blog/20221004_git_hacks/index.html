@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>林杯塔部落格</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Git的學習筆記">
+  <meta name="author" content="Beta Lin">
+  <meta name="generator" content="Hugo 0.102.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://linbeta.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://linbeta.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://linbeta.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-190830133-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://linbeta.github.io"><img class="img-fluid"
+          src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/profile.php?id=1142237206"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/sb2828sb/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/linbeta"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/beta-lin-b14020139/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://linbeta.github.io"><img class="img-fluid"
+            src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://linbeta.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://linbeta.github.io/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://linbeta.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92" class="text-primary">學習</a>
+        
+        <h2>Git指令小祕技！</h2>
+        <div class="mb-3 post-meta">
+          <span>By Beta Lin</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>Monday, October 3, 2022</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>前幾天終於把我在Udemy上<a href="https://www.udemy.com/course/git-and-github-bootcamp/">Git&amp;GitHub Bootcamp</a>的課程上完啦！說來好笑，一年前的進度就看到95%，不知道為何要一直放著最後那5%在那邊&hellip;😓<br>
+結果最後一章根本有讓我開心跳起來的Git小祕技！！這邊就來簡單做個筆記分享～</p>
+<h3 id="git-config-的設定檔存在哪裡">git config 的設定檔存在哪裡？</h3>
+<p>我們在設定一個新設備的git config 資訊時，會輸入以下指定設定使用者的姓名和email</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git config --global user.name <span style="color:#e6db74">&#34;Your Username&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global user.email <span style="color:#e6db74">&#34;your-email@example.com&#34;</span>
+</span></span></code></pre></div><p>需要查看時輸入<code>git config --global user.name</code>和<code>git config --global user.email</code>即可查看，但我從來沒想過去問這個config的檔案存在哪邊？以及如果去編輯這份檔案會發生什麼事？</p>
+<p>原來在家目錄（Home directory）裡面有個隱藏檔案<code>.gitconfig</code>，或是這個路徑的config檔案<code>~/.config/git/config</code>，只要開啟它就會看到使用git config所設定的資訊顯示如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">[</span>user<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  name <span style="color:#f92672">=</span> Your Username
+</span></span><span style="display:flex;"><span>  email <span style="color:#f92672">=</span> your-email@example.com
+</span></span></code></pre></div><h3 id="設定自訂的指令">設定自訂的指令</h3>
+<p>要設定git的自訂指令只需要在這個檔案裡多新增一個<code>[alias]</code>的屬性即可，我設定的常用縮寫指令像這樣：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">[</span>user<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  name <span style="color:#f92672">=</span> Your Username
+</span></span><span style="display:flex;"><span>  email <span style="color:#f92672">=</span> your-email@example.com
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>alias<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  s <span style="color:#f92672">=</span> status
+</span></span><span style="display:flex;"><span>  l <span style="color:#f92672">=</span> log
+</span></span><span style="display:flex;"><span>  lo <span style="color:#f92672">=</span> log --oneline
+</span></span><span style="display:flex;"><span>  cm <span style="color:#f92672">=</span> commit -m
+</span></span></code></pre></div><p><code>s = status</code>這行表示，以後我想要使用<code>git status</code>這個指令的時候，只輸入<code>git s</code>就可以了！</p>
+<p>依此類推，像是<code>git log --oneline</code>這麼長的指令，我只需要輸入<code>git lo</code>碼ㄟ通！是不是超讚的！！？？</p>
+<p>當然了，設定指令縮寫除了開啟<code>~/.gitconfig</code>這個檔案直接編輯以外，也可以使用<code>git config --global</code>指令來設定，用我們上面的幾個縮寫指令舉例，會像是這樣：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git config --global alias.s <span style="color:#e6db74">&#34;status&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global alias.l <span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global alias.lo <span style="color:#e6db74">&#34;log --oneline&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global alias.cm <span style="color:#e6db74">&#34;commit -m&#34;</span>
+</span></span></code></pre></div><p>而且你愛用哪些指令要怎麼縮寫都可以隨你高興客製化設定，這種密技真該早點學會早點用啊！😅</p>
+<p>最後放上我的Udemy完課證書以茲紀念～🎉🎊🍾
+<img src="../../images/post/20221004_udemy-cert-git-and-github.jpeg" alt="img"></p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "betalin" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://linbeta.github.io"><img src="https://linbeta.github.io/images/Lin-Beta_logo_2.png" alt="林杯塔部落格"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taipei, Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:beta610@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>beta610@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/profile.php?id=1142237206">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/sb2828sb/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/linbeta">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/beta-lin-b14020139/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/2022_ithome%e9%90%b5%e4%ba%ba%e8%b3%bd">2022 ithome鐵人賽</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e5%ad%b8%e7%bf%92">學習</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e6%af%9b%e7%90%83">毛球</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e7%94%9f%e6%b4%bb">生活</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://linbeta.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2022 <a href="https://linbeta.github.io">Beta Lin</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://linbeta.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://linbeta.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/mark.js"></script>
+
+<script src="https://linbeta.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://linbeta.github.io/js/script.min.js"></script>
+
+
+
+</body>
+</html>
