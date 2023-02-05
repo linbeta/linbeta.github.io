@@ -2,11 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://linbeta.github.io/blog/20230204_new_year_goal/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/annual-plan/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
     <loc>https://linbeta.github.io/blog/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/categories/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/goals/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/learning/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/life/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/online-course/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/revie%EF%BD%97/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/tags/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
+  </url><url>
+    <loc>https://linbeta.github.io/</loc>
+    <lastmod>2023-02-05T23:16:02+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/hexschool/</loc>
     <lastmod>2022-12-09T23:49:25+08:00</lastmod>
@@ -14,25 +44,10 @@
     <loc>https://linbeta.github.io/tags/javascript/</loc>
     <lastmod>2022-12-09T23:49:25+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/learning/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/online-course/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/tags/review/</loc>
     <lastmod>2022-12-09T23:49:25+08:00</lastmod>
   </url><url>
-    <loc>https://linbeta.github.io/tags/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
-  </url><url>
     <loc>https://linbeta.github.io/blog/20221209_hexschool_js_class_review/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2022-12-09T23:49:25+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/</loc>
     <lastmod>2022-12-09T23:49:25+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/git/</loc>
@@ -85,9 +100,6 @@
   </url><url>
     <loc>https://linbeta.github.io/blog/20220916_day_1/</loc>
     <lastmod>2022-09-16T02:26:57+08:00</lastmod>
-  </url><url>
-    <loc>https://linbeta.github.io/tags/life/</loc>
-    <lastmod>2021-09-29T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://linbeta.github.io/tags/milestone/</loc>
     <lastmod>2021-09-29T16:30:00+08:00</lastmod>
