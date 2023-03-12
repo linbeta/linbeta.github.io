@@ -6,7 +6,61 @@
     <description>Recent content in Tags on 林杯塔部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 13 Feb 2023 02:23:21 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 15:42:30 +0800</lastBuildDate><atom:link href="https://linbeta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>books</title>
+      <link>https://linbeta.github.io/tags/books/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goals</title>
+      <link>https://linbeta.github.io/tags/goals/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://linbeta.github.io/tags/learning/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://linbeta.github.io/tags/life/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>revieｗ</title>
+      <link>https://linbeta.github.io/tags/revie%EF%BD%97/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/revie%EF%BD%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategy</title>
+      <link>https://linbeta.github.io/tags/strategy/</link>
+      <pubDate>Sun, 12 Mar 2023 15:42:30 +0800</pubDate>
+      
+      <guid>https://linbeta.github.io/tags/strategy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>annual-plan</title>
       <link>https://linbeta.github.io/tags/annual-plan/</link>
@@ -17,47 +71,11 @@
     </item>
     
     <item>
-      <title>goals</title>
-      <link>https://linbeta.github.io/tags/goals/</link>
-      <pubDate>Mon, 13 Feb 2023 02:23:21 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/goals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://linbeta.github.io/tags/learning/</link>
-      <pubDate>Mon, 13 Feb 2023 02:23:21 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://linbeta.github.io/tags/life/</link>
-      <pubDate>Mon, 13 Feb 2023 02:23:21 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>online-course</title>
       <link>https://linbeta.github.io/tags/online-course/</link>
       <pubDate>Mon, 13 Feb 2023 02:23:21 +0800</pubDate>
       
       <guid>https://linbeta.github.io/tags/online-course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>revieｗ</title>
-      <link>https://linbeta.github.io/tags/revie%EF%BD%97/</link>
-      <pubDate>Mon, 13 Feb 2023 02:23:21 +0800</pubDate>
-      
-      <guid>https://linbeta.github.io/tags/revie%EF%BD%97/</guid>
       <description></description>
     </item>
     
